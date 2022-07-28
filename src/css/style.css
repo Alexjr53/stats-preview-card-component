@@ -51,7 +51,7 @@ main{
     padding: 6.7rem 11.3rem 0 4rem;
     display: flex;
     justify-content: space-around;
-    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 
 .Statistics div h2{
@@ -59,6 +59,8 @@ main{
 }
 
 .Statistics div p{
+    font-family: 'Lexend Deca', sans-serif;
     font-size: 1.3rem;
+    font-weight: 400;
     margin-top: 0.6rem;
 }
