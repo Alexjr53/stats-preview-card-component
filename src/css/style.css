@@ -1,0 +1,34 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-color: aqua;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main{
+    display: grid;
+    grid-template-areas: "container image";
+    grid-template-columns: 1fr 1fr;
+    margin: 2rem;
+    background-color: red;
+    
+    
+}
+
+.container{
+    grid-area: container;
+    text-align: center;
+}
+
+.image{
+    grid-area: image;
+}
+
+.image img{
+    width: 100%;
+}
