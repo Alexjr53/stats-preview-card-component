@@ -17,8 +17,6 @@ main{
     grid-template-rows: 446px;
     margin: 2rem;
     background-color:hsl(244, 38%, 16%);
-    
-    
 }
 
 .container{
@@ -49,7 +47,7 @@ main{
     color: hsla(0, 0%, 100%, 0.75);
 }
 
-.Statistics{
+.container .Statistics{
     padding: 6.7rem 11.3rem 0 4rem;
     display: flex;
     justify-content: space-around;
@@ -57,11 +55,11 @@ main{
     color: #ffffff;
 }
 
-.Statistics div h2{
+.container .Statistics div h2{
     font-size: 2.5rem;
 }
 
-.Statistics div p{
+.container .Statistics div p{
     font-family: 'Lexend Deca', sans-serif;
     font-size: 1.3rem;
     font-weight: 400;
@@ -81,5 +79,8 @@ main{
     position: absolute;
     width: 100%;
     height: 100%;
-    opacity: 0.4;
+}
+
+.image img{
+    opacity: 0.5;
 }
