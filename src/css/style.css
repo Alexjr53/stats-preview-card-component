@@ -27,17 +27,18 @@ main{
     
 }
 
-.image{
-    grid-area: image; 
-}
-
 .container .info{
     padding: 7rem 7rem 0;
     font-family: 'Inter', sans-serif;
+    color: #ffffff;
 }
 
 .container .info h1{
     font-size: 3.6rem;
+}
+
+.container .info h1 span{
+    color: hsl(277, 64%, 61%);
 }
 
 .container .info p{
@@ -45,6 +46,7 @@ main{
     line-height: 2.6rem;
     margin-top: 2.5rem;
     padding-right: 4rem;
+    color: hsla(0, 0%, 100%, 0.75);
 }
 
 .Statistics{
@@ -52,6 +54,7 @@ main{
     display: flex;
     justify-content: space-around;
     font-family: 'Inter', sans-serif;
+    color: #ffffff;
 }
 
 .Statistics div h2{
@@ -63,4 +66,20 @@ main{
     font-size: 1.3rem;
     font-weight: 400;
     margin-top: 0.6rem;
+    color: hsla(0, 0%, 100%, 0.6);
+}
+
+.image{
+    grid-area: image;
+    position: relative;
+
+}
+
+.image::before{
+    content: "";
+    background-color: hsl(277, 63%, 45%);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
 }
