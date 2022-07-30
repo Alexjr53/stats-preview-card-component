@@ -3,7 +3,7 @@ html{
 }
 
 body{
-    background-color: hsl(233, 47%, 7%);
+    background-color: var(--main-bg-color);
     min-height: 100vh;
     display: flex;
     align-items: center;
@@ -16,13 +16,12 @@ main{
     grid-template-columns: minmax(200px 568px) minmax(200px 540px);
     grid-template-rows: 446px;
     margin: 2rem;
-    background-color:hsl(244, 38%, 16%);
 }
 
 .container{
     grid-area: container;
     max-width: 57rem;
-    
+    background-color:var(--card-bg-color);
 }
 
 .container .info{
@@ -36,7 +35,7 @@ main{
 }
 
 .container .info h1 span{
-    color: hsl(277, 64%, 61%);
+    color: var(--primary-soft-color);
 }
 
 .container .info p{
@@ -44,12 +43,13 @@ main{
     line-height: 2.6rem;
     margin-top: 2.5rem;
     padding-right: 4rem;
-    color: hsla(0, 0%, 100%, 0.75);
+    color: var(--secundary-soft-color);
 }
 
 .container .Statistics{
-    padding: 6.7rem 11.3rem 0 4rem;
+    padding: 0 11.3rem 0 4rem;
     display: flex;
+    margin-top: 6.7rem;
     justify-content: space-around;
     font-family: 'Inter', sans-serif;
     color: #ffffff;
@@ -64,18 +64,17 @@ main{
     font-size: 1.3rem;
     font-weight: 400;
     margin-top: 0.6rem;
-    color: hsla(0, 0%, 100%, 0.6);
+    color: var(--secundary-medium-color);
 }
 
 .image{
     grid-area: image;
     position: relative;
-
 }
 
 .image::before{
     content: "";
-    background-color: hsl(277, 63%, 45%);
+    background-color: var(--primary-soft-color);
     position: absolute;
     width: 100%;
     height: 100%;
