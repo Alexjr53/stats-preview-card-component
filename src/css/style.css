@@ -13,9 +13,10 @@ body{
 main{
     display: grid;
     grid-template-areas: "container image";
-    grid-template-columns: minmax(200px 568px) minmax(200px 540px);
+    grid-template-columns: minmax(200px 568px) 1fr;
     grid-template-rows: 446px;
-    margin: 2rem;
+    margin: 3rem;
+    /* display: flex; */
 }
 
 .container{
@@ -28,6 +29,7 @@ main{
     padding: 7rem 7rem 0;
     font-family: 'Inter', sans-serif;
     color: #ffffff;
+    min-height: 200px;
 }
 
 .container .info h1{
@@ -82,4 +84,5 @@ main{
 
 .image img{
     opacity: 0.5;
+    height: 100%;
 }
