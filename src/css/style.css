@@ -22,6 +22,7 @@ main{
     grid-area: container;
     max-width: 57rem;
     background-color:var(--card-bg-color);
+    border-radius: 10px 0 0 10px;
 }
 
 .container .info{
@@ -79,9 +80,11 @@ main{
     position: absolute;
     width: 100%;
     height: 100%;
+    border-radius: 0 10px 10px 0;
 }
 
 .image img{
     opacity: 0.5;
     height: 100%;
+    border-radius: 0 10px 10px 0;
 }
