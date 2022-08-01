@@ -16,7 +16,6 @@ main{
     grid-template-columns: minmax(200px 568px) 1fr;
     grid-template-rows: 446px;
     margin: 3rem;
-    /* display: flex; */
 }
 
 .container{
@@ -32,15 +31,15 @@ main{
     min-height: 200px;
 }
 
-.container .info h1{
+.container .info .title{
     font-size: 3.6rem;
 }
 
-.container .info h1 span{
+.container .info .title span{
     color: var(--primary-soft-color);
 }
 
-.container .info p{
+.container .info .description{
     font-size: 1.5rem;
     line-height: 2.6rem;
     margin-top: 2.5rem;
@@ -48,7 +47,7 @@ main{
     color: var(--secundary-soft-color);
 }
 
-.container .Statistics{
+.container .stats{
     padding: 0 11.3rem 0 4rem;
     display: flex;
     margin-top: 6.7rem;
@@ -57,11 +56,11 @@ main{
     color: #ffffff;
 }
 
-.container .Statistics div h2{
+.container .stats .stats-content h2{
     font-size: 2.5rem;
 }
 
-.container .Statistics div p{
+.container .stats .stats-content p{
     font-family: 'Lexend Deca', sans-serif;
     font-size: 1.3rem;
     font-weight: 400;

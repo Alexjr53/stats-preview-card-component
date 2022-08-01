@@ -7,23 +7,23 @@
         padding: 5rem 7rem 0;
     }
     
-    .container .info h1{
+    .container .info .title{
         font-size: 3rem;
     }
-    .container .info p{
+    .container .info .description{
         font-size: 1.3rem;
     }
 
-    .container .Statistics{
+    .container .stats{
         margin-top: 4.7rem;
         padding: 0 11.3rem 0 5rem;
     }
 
-    .container .Statistics div h2{
+    .container .stats .stats-content h2{
         font-size: 2rem;
     }
 
-    .container .Statistics div p{
+    .container .stats .stats-content p{
         font-size: 1.2rem;
     }
 
@@ -37,38 +37,47 @@
         grid-template-rows: 240px 546px;
     }
 
-    .image img{
-        width: 100%;
+    .container{
+        border-radius: 0 0 10px 10px;
     }
 
     .container .info{
         text-align: center;
         padding: 3.7rem 2rem;
     }
-
-    .container .info h1{
+    
+    .container .info .title{
         font-size: 2.8rem;
     }
-
-    .container .info p{
+    
+    .container .info .description{
         padding: 0 1rem;
         margin-top: 1.5rem;
         font-size: 1.5rem;
     }
-
-    .container .Statistics{
+    
+    .container .stats{
         flex-direction: column;
         align-items: center;
         padding: 0;
         margin-top: 0;
     }
-
-    .container .Statistics div{
+    
+    .container .stats .stats-content{
         text-align: center;
         padding-bottom: 3rem;
     }
 
-    .container .Statistics div h2{
+    .container .stats .stats-content h2{
         font-size: 2.4rem;
+    }
+
+    .image img{
+        width: 100%;
+        border-radius: 10px 10px 0 0;
+    }
+
+    .image::before{
+        border-radius: 10px 10px 0 0 ;
     }
 }
