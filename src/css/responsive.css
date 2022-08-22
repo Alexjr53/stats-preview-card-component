@@ -1,34 +1,3 @@
-@media(max-width: 1118px){
-    main{
-        grid-template-rows: 350px;
-    }
-
-    .container .info{
-        padding: 5rem 7rem 0;
-    }
-    
-    .container .info .title{
-        font-size: 3rem;
-    }
-    .container .info .description{
-        font-size: 1.3rem;
-    }
-
-    .container .stats{
-        margin-top: 4.7rem;
-        padding: 0 11.3rem 0 5rem;
-    }
-
-    .container .stats .stats-content h2{
-        font-size: 2rem;
-    }
-
-    .container .stats .stats-content p{
-        font-size: 1.2rem;
-    }
-
-}
-
 @media(max-width:942px){
     main{
         grid-template-areas: "image"
