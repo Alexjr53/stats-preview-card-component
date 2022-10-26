@@ -4,4 +4,6 @@
     --primary-soft-color:hsl(277, 64%, 61%);
     --secundary-medium-color:hsla(0, 0%, 100%, 0.6);
     --secundary-soft-color:hsla(0, 0%, 100%, 0.75);
+    --primary-font: 'Inter', sans-serif;
+    --secundary-font:'Lexend Deca', sans-serif;
 }

@@ -1,6 +1,6 @@
-# Frontend Mentor - Solução do Stats preview card component
+# Desafio Frontend Mentor - Solução do Stats preview card component
 
-Esta é uma solução para o [Desafio Stats preview card component no Frontend Mentor](https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62). Os desafios do Frontend Mentor ajudam você a melhorar suas habilidades de codificação criando projetos realistas.
+Esta é uma solução para o [Desafio Stats preview card component no Frontend Mentor](https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62).
 
 [![NPM](https://img.shields.io/bower/l/MI)](https://github.com/Alexjr53/stats-preview-card-component/blob/main/LICENSE)
 
@@ -22,19 +22,19 @@ Esta é uma solução para o [Desafio Stats preview card component no Frontend M
 
 Os usuários devem ser capazes de:
 
-- Visualize o layout ideal para a página, dependendo do tamanho da tela do dispositivo
+- Criar o layout ideal para a página, dependendo do tamanho da tela do dispositivo
 
 ### Screenshot
 #### Desktop
-![produto](src/images/screenshot-desktop.png)
+![Stats preview card component](src/design/screenshot-desktop.png)
 
 #### Mobile
-![produto](src/images/screenshot-mobile.png)
+![Stats preview card component](src/design/screenshot-mobile.png)
 
 ### Links
 
-- Solução URL: [Order summary card - Frontend mentor](https://www.frontendmentor.io/solutions/stats-preview-card-component-t0KXPBsI3t)
-- URL da página: [Order summary card](https://alexjr53.github.io/Order-summary-component/) 
+- Solução do desafio: [Stats preview card component - Frontend mentor](https://www.frontendmentor.io/solutions/stats-preview-card-component-t0KXPBsI3t)
+- URL da página: [Stats preview card component](https://alexjr53.github.io/stats-preview-card-component/) 
 
 ## Meu processo
 
