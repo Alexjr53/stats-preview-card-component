@@ -33,8 +33,9 @@ Os usuários devem ser capazes de:
 
 ### Links
 
-- Solução do desafio: [Stats preview card component - Frontend mentor](https://www.frontendmentor.io/solutions/stats-preview-card-component-t0KXPBsI3t)
+- Solução do desafio frontend mentor: [Stats preview card component - Frontend mentor](https://www.frontendmentor.io/solutions/stats-preview-card-component-t0KXPBsI3t)
 - URL da página: [Stats preview card component](https://alexjr53.github.io/stats-preview-card-component/) 
+- Repositório do projeto no GitHub: [Stats preview card component](https://github.com/Alexjr53/stats-preview-card-component)
 
 ## Meu processo
 
