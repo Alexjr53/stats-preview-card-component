@@ -16,7 +16,7 @@ Esta é uma solução para o [Desafio Stats preview card component no Frontend M
 - [Autor](#autor)
 - [Agradecimentos](#agradecimentos)
 
-  ## Visão geral
+## Visão geral
 
 ### Desafio
 
