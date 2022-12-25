@@ -41,7 +41,7 @@ main{
     line-height: 2.6rem;
     margin-top: 2.5rem;
     padding-right: 4rem;
-    color: var(--secundary-soft-color);
+    color: var(--secondary-soft-color);
 }
 
 .container .stats{
@@ -58,11 +58,11 @@ main{
 }
 
 .container .stats .stats-content p{
-    font-family: var(--secundary-font);
+    font-family: var(--secondary-font);
     font-size: 1.3rem;
     font-weight: 400;
     margin-top: 0.6rem;
-    color: var(--secundary-medium-color);
+    color: var(--secondary-medium-color);
 }
 
 .image{
